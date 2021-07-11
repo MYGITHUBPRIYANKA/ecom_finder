@@ -9,7 +9,7 @@ import_heading_stdlib = 'Standard library imports'
 import_heading_thirdparty = 'Third party imports'
 import_heading_firstparty = 'Local application imports'
 import_heading_localfolder = 'Local folder imports'
-known_first_party = ['src/ipbcai']
+known_first_party = ['ecom_finder']
 
 [tool.black]
 line-length = 88
@@ -38,15 +38,11 @@ exclude = '''
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "-ra -q"
-testpaths = [
-    "src/"
-]
 python_files = "*test_*.py"
 junit_family = "legacy"
 
 [tool.coverage.run]
 command_line = '-m pytest'
-source = ['src/']
 
 [tool.coverage.report]
 precision = 2
