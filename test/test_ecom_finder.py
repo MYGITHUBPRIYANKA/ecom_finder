@@ -17,27 +17,36 @@ sys.path.append(os.path.abspath(os.path.join("..")))
 def test_dependencies():
     success = False
     try:
-        from bs4 import BeautifulSoup
-        import pandas
-        import requests
+        # Standard library imports
         import re
         import urllib
+
+        # Third party imports
+        import pandas
+        import requests
         import speech_recognition
+        from bs4 import BeautifulSoup
+
         success = True
     except Exception as e:
         print(e)
-        
+
     assert success == True
-    
-# Amazon Crawling Test   
+
+
+# Amazon Crawling Test
 def test_crawler_amazon():
+    # Local application imports
     import ecom_finder.ecom_finder as ef
-    mobiles = ef.__get_items_from_amazon__("Mobiles")    
+
+    mobiles = ef.__get_items_from_amazon__("Mobiles")
     assert mobiles.shape[0] > 0
+
 
 # Flipkart Crawling Test
 def test_crawler_flipkart():
+    # Local application imports
     import ecom_finder.ecom_finder as ef
-    mobiles = ef.__get_items_from_flipkart__("Mobiles")    
+
+    mobiles = ef.__get_items_from_flipkart__("Mobiles")
     assert mobiles.shape[0] > 0
-    
