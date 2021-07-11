@@ -10,5 +10,5 @@ setup(name='ecom_finder',
       license='MIT License',
       packages=['ecom_finder'],
       include_package_data=True,
-      install_requires=["bs4", "pandas", "requests", "re", "urllib", "SpeechRecognition", "pyaudio"s],
+      install_requires=["bs4", "pandas", "requests", "re", "urllib", "SpeechRecognition", "pyaudio"],
       zip_safe=False)
