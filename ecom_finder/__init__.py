@@ -77,7 +77,7 @@ def __get_items_from_flipkart__(text):
     )
 
     code = __requests__.get(query, headers=headers)
-    soup = __BS__(code.content, "lxml")
+    soup = __BS__(code.text, "html.parser")
 
     alls = []
 
