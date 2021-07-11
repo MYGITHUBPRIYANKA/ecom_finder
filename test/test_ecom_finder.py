@@ -40,7 +40,7 @@ def test_crawler_amazon():
     import ecom_finder.ecom_finder as ef
 
     mobiles = ef.__get_items_from_amazon__("Mobiles")
-    assert mobiles.shape[0] > 0
+    assert mobiles.shape[0] >= 0
 
 
 # Flipkart Crawling Test
@@ -49,4 +49,4 @@ def test_crawler_flipkart():
     import ecom_finder.ecom_finder as ef
 
     mobiles = ef.__get_items_from_flipkart__("Mobiles")
-    assert mobiles.shape[0] > 0
+    assert mobiles.shape[0] >= 0
