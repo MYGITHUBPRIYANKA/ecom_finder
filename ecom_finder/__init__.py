@@ -104,7 +104,7 @@ def find(keyword, nor=10):
 def find_by_voice(nor=10, device=True, audio_file_path=None):
     
     if device == False:
-        f = __sr__.AudioFile(audio_file)
+        f = __sr__.AudioFile(audio_file_path)
         r = __sr__.Recognizer()
         with f as source:
             audio = r.record(source)
