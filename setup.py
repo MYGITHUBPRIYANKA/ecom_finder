@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='ecom_finder',
-      version='0.1',
+      version='1.0.1',
       description='Python based library to find any product in ecommerce site using crawling and AI (like audio, images)',
       long_description=long_description,
       long_description_content_type='text/markdown',
