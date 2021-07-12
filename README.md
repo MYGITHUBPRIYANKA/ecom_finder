@@ -3,4 +3,7 @@
 
 [![Upload Python Package](https://github.com/MYGITHUBPRIYANKA/ecom_finder/actions/workflows/python-publish.yml/badge.svg)](https://github.com/MYGITHUBPRIYANKA/ecom_finder/actions/workflows/python-publish.yml)
 
-Python based library to find any product in ecommerce site using crawling and AI (like audio, images)
+<b>Intro</b>
+This project is can help users to find the optimal solutions for finding best products on ecomerce sites (for ex: amazon, flipkart)
+
+<b>How To Use</b>
