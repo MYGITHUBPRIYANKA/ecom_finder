@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author  : Priyanka Das
-# @Version : 1.0.1
+# @Version : 1.0.2
 #
 # test cases for ecom_finder
 # Standard library imports
