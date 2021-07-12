@@ -7,3 +7,12 @@
 This project is can help users to find the optimal solutions for finding best products on ecomerce sites (for ex: amazon, flipkart) based on crawling, AI, Audio Processing, Image Processing, and busines analytics
 
 <b>How To Use</b>
+
+- Installation
+
+  ```
+  pip install ecom_finder
+  ```
+
+- Useage
+
