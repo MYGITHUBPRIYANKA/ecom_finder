@@ -11,7 +11,7 @@ This project is can help users to find the optimal solutions for finding best pr
 - Installation
 
   ```
-  pip install ecom_finder
+  pip install ecom-finder
   ```
 
 - Useage
